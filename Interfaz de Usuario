@@ -1,0 +1,6 @@
+#Interfaz de Usuario
+# Ejemplo de una interfaz de línea de comandos para un sistema de diagnóstico médico
+print("Ingrese los síntomas separados por comas:")
+sintomas = input().split(",")
+diagnostico = diagnosticar_enfermedad(*sintomas)
+print("El diagnóstico es:", diagnostico)
