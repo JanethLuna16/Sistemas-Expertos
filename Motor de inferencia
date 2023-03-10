@@ -1,0 +1,13 @@
+#Motor de inferencia 
+# Ejemplo de una regla para un sistema de diagnóstico médico
+def diagnosticar_enfermedad(fiebre, tos, dolor):
+    if fiebre and tos and dolor == "cabeza":
+        return "Resfriado común"
+    elif fiebre and tos and dolor == "garganta":
+        return "Faringitis"
+    elif fiebre and dolor == "muscular":
+        return "Influenza"
+    elif dolor == "cabeza" and náuseas and mareo:
+        return "Migraña"
+    else:
+        return "No se puede diagnosticar la enfermedad"
