@@ -1,0 +1,5 @@
+#Modulo de explicacion
+# Ejemplo de una función que explica el razonamiento detrás de un diagnóstico
+def explicar_diagnostico(fiebre, tos, dolor):
+    if fiebre and tos and dolor == "cabeza":
+        explicacion = "Los síntomas de fiebre, tos y dolor de cabeza son indicativos de un resfriado
