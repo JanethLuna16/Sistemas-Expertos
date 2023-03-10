@@ -1,0 +1,9 @@
+#Base de conocimiento
+# Ejemplo de una base de conocimientos para un sistema de diagnóstico médico
+base_conocimientos = {
+    ("fiebre", "tos", "dolor de cabeza"): "Resfriado común",
+    ("fiebre", "tos", "dolor de garganta"): "Faringitis",
+    ("fiebre", "dolor de cabeza", "dolor muscular"): "Influenza",
+    ("dolor de cabeza", "náuseas", "mareo"): "Migraña",
+
+}
