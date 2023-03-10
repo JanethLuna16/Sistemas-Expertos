@@ -1,0 +1,21 @@
+#Modulo de Adquisición de Conocimientos
+# Ejemplo de una función para agregar un nuevo diagnóstico a la base de conocimientos
+def agregar_diagnostico(sintomas, enfermedad):
+    base_conocimientos[sintomas] = enfermedad
+    return "El nuevo diagnóstico ha sido agregado a la base de conocimientos."
+
+# Ejemplo de una función para eliminar un diagnóstico de la base de conocimientos
+def eliminar_diagnostico(sintomas):
+    if sintomas in base_conocimientos:
+        del base_conocimientos[sintomas]
+        return "El diagnóstico ha sido eliminado de la base de conocimientos."
+    else:
+        return "El diagnóstico no existe en la base de conocimientos."
+
+# Ejemplo de una función para actualizar un diagnóstico existente en la base de conocimientos
+def actualizar_diagnostico(sintomas, enfermedad):
+    if sintomas in base_conocimientos:
+        base_conocimientos[sintomas] = enfermedad
+        return "El diagnóstico ha sido actualizado en la base de conocimientos."
+    else:
+        return "El diagnóstico no existe en la base de conocimientos."
